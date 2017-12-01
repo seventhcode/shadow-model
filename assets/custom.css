@@ -1,0 +1,16 @@
+.markdown-body {
+  max-width: 1080px;
+  margin: 50px auto;
+  font-size: 25px;
+  line-height: 2;
+}
+
+table {
+  margin: auto;
+  width: auto !important;
+  display: table !important;
+}
+
+img {
+  max-width: 700px !important;
+}
