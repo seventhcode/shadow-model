@@ -1,15 +1,15 @@
 <link rel="stylesheet" href="assets/custom.css">
 <title>shadows on a flat earth</title>
 
-# Sun Model
+# Shadow Model
 *A project by [Alan Ma](https://alan-ma.me)*  
 **The initial problem:** Model the shadow length of a building on a flat Earth, assuming that rays from the Sun are all parallel (and not radial).
 
 ## Solution: First Edition
 I started out with a graphical interpretation of the scenario:  
-| *the flat earth sun model* |
+| *the flat-earth, point-sun model* |
 | :-: |
-| ![sun model 1 - graphical representation](assets/sun-model-1.png) |
+| ![shadow model 1 - graphical representation](assets/sshadow-model-1.png) |
 
 I wanted to create a model that was flexible enough to allow parameters – a variable building position and height, as well as a variable radius of the sun.
 With these parameters, I defined a few variables and gave a more concrete model.
@@ -26,7 +26,7 @@ We know that the coordinates of S are dependant on $\theta$ and are equal to $(r
 The model would then be:  
 | *the model with variables* |
 | :-: |
-| ![sun model 2 - graphical representation](assets/sun-model-2.png) |
+| ![shadow model 2 - graphical representation](assets/shadow-model-2.png) |
 
 The value that we are looking for is $E_{sx}$. I found this with a 2-step process:  
 1. Find the equation of the the line passing through points $E$ and $B$.
