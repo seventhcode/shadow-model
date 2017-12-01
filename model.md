@@ -9,7 +9,7 @@
 I started out with a graphical interpretation of the scenario:  
 | *the flat-earth, point-sun model* |
 | :-: |
-| ![shadow model 1 - graphical representation](assets/sshadow-model-1.png) |
+| ![shadow model 1 - graphical representation](assets/shadow-model-1.png) |
 
 I wanted to create a model that was flexible enough to allow parameters – a variable building position and height, as well as a variable radius of the sun.
 With these parameters, I defined a few variables and gave a more concrete model.
